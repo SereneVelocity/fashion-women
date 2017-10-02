@@ -1,0 +1,125 @@
+.container{
+	display:  block;
+	margin:  0px auto;
+}
+#headerSection{
+	padding-top: 40px;
+}
+#headerSection div:nth-child(2) > div:nth-child(1){
+	background-image: url('http://lorempixel.com/output/fashion-h-c-700-800-10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#headerSection div:nth-child(2) > div:nth-child(2){
+	background-image: url('http://lorempixel.com/output/nature-h-c-700-800-10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#headerSection > div div img{
+	float: left;
+	margin-top: 38px;
+}
+
+#headerSection > div:nth-child(1) > div{
+	z-index: 1;
+	position:  absolute;
+}
+
+#headerSection > div div i{
+	position:  absolute;
+	font-size: 2.5rem;
+	float: right;
+	margin-top: 30px;
+	color: #fff;
+	margin-left: 932px;
+	z-index:  2;
+}
+
+#headerSection > div:nth-child(2) div h1{
+	margin-top: 280px;
+	color: #fff;
+	padding: 0px 150px 0px 150px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+#headerSection > div:nth-child(2) div a{
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 280px;
+	color:  #bed8ff;
+	font-size: 12px;
+}
+#headerSection > div:nth-child(2) div a:active,#headerSection > div:nth-child(2) div a:link,#headerSection > div:nth-child(2) div a:hover{
+	color:  #bed8ff;
+
+}
+
+/*--begin about section--*/
+
+#About > div div:nth-child(1){
+	margin-top: 70px;
+	text-transform: uppercase;
+	color: #164b9b;
+	text-align: center;
+}
+#About > div div:nth-child(1) h1{
+	font-weight:  500;
+	margin-bottom: 50px;
+}
+
+#About p{
+	color: #8d9bb0;
+	text-align: center;
+	width: 45%;
+	display: block;
+	margin: 0px auto;
+	margin-top: 35px;
+	font-size: 16px;
+	margin-bottom: 140px;
+}
+
+#About img{
+	max-width: 100%;
+	box-shadow: 0px 0px 10px 10px;
+	-webkit-box-shadow: 12px 15px 66px 0px rgba(153,151,153,1);
+	-moz-box-shadow: 12px 15px 66px 0px rgba(153,151,153,1);
+	box-shadow: 12px 15px 66px 0px rgba(153,151,153,1);
+}
+
+/*--Cute Panda Start--*/
+
+#cutePanda > div > div:nth-child(1){
+	background-image: url('http://lorempixel.com/output/fashion-h-c-285-500-9.jpg');
+	height: 500px;
+}
+
+#cutePanda > div > div:nth-child(2){
+	background-image: url('http://lorempixel.com/output/fashion-h-c-500-600-9.jpg') ;
+	height: 500px;
+}
+
+#cutePanda > div > div:nth-child(2) > div{
+	background-color: #164b9b;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
